@@ -34,6 +34,15 @@ const Footer = () => {
                 <hr />
                 <p className='py-5 text-sm text-center'>Copyright 2025@ tamazur.com - All Right Reserved.</p>
             </div>
+              {/* 👇 Visible Admin Button */}
+        <div className="text-center mt-3">
+          <a
+            href="https://ecommerce-admin-panel-lake.vercel.app" // 👈 apna admin panel ka live link daalna
+            className="inline-block px-4 py-2 bg-black text-white text-sm rounded hover:bg-gray-800 transition"
+          >
+            Admin Panel
+          </a>
+        </div>
         </div>
     )
 }
